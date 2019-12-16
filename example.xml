@@ -1,7 +1,7 @@
 <annotation>
-	<folder>Apple Braeburn</folder>
-	<filename>3_100.jpg</filename>
-	<path>/Users/karol/code/AI/fruits-360/Test/Apple Braeburn/3_100.jpg</path>
+	<folder>Data</folder>
+	<filename>FILENAME</filename>
+	<path>PATH</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>Apple_Braburn</name>
+		<name>LABEL</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -20,7 +20,7 @@
 			<xmin>1</xmin>
 			<ymin>1</ymin>
 			<xmax>100</xmax>
-			<ymax>99</ymax>
+			<ymax>100</ymax>
 		</bndbox>
 	</object>
 </annotation>
