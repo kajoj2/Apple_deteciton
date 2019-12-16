@@ -35,6 +35,7 @@ for entry in entries:
                         destxml = "Data/validation/annotations/" + entry+ str(i) + '.xml'
                     shutil.copy(basepath+entry+'/'+imageFile,destImage ) 
                     filedata = example.replace('LABEL', entry)
+                    filedata = filedata.replace('FILENAME', entry+ str(i) +'.jpg')
                     with open(destxml, 'w') as file:
                         file.write(filedata)
 
